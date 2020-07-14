@@ -49,7 +49,7 @@ public class PopupWonView<mInterstitialAd> extends RelativeLayout {
 		super(context, attrs);
 		LayoutInflater.from(context).inflate(R.layout.popup_won_view, this, true);
 		mInterstitialAd = new InterstitialAd(context);
-		mInterstitialAd.setAdUnitId("ca-app-pub-8368920540183259/5439850826");
+		mInterstitialAd.setAdUnitId("IntersticialID");
 		mInterstitialAd.loadAd(new AdRequest.Builder().build());
 		mTime = (TextView) findViewById(R.id.time_bar_text);
 		mScore = (TextView) findViewById(R.id.score_bar_text);
